@@ -1,0 +1,187 @@
+* {
+  margin: 0%;
+}
+
+.main {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+  margin-top: -100vh;
+}
+
+.drawer {
+  display: flex;
+  width: 200px;
+  height: 100vh;
+  background-color: blue;
+  align-items: flex-start;
+  margin-right: -100%;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.drawer__active {
+  display: flex;
+  position: fixed;
+  width: 200px;
+  height: 100vh;
+  background-color: rgb(71, 71, 255);
+  align-items: flex-start;
+  /* margin-right: -100%; */
+  flex-direction: column;
+  z-index: 1;
+  align-items: flex-start;
+  text-align: left;
+  color: white;
+  padding: 15px;
+}
+
+.cross{
+    margin-top: -20px;
+}
+
+.cross:hover{
+    cursor: pointer;
+}
+
+.input__main{
+    margin-top: 350px;
+}
+
+.drawer__active input{
+    margin-top: 7px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+    height: 25px;
+    padding-left: 15px;
+}
+
+.drawer__active input:hover{
+  cursor: text;
+}
+
+.drawer__active button{
+    margin-top: 7px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+    height: 25px;
+}
+
+.drawer__active button:hover{
+  border: lightgray;
+  background-color: lightgray;
+}
+
+.hello {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./srilanka.jpeg");
+  color: white;
+  /* margin-top: -100vh; */
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  align-items:flex-start;
+  padding:40px;
+}
+.hello_active {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./srilanka.jpeg");
+  color: white;
+  margin-top: -100vh;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  align-items:flex-start;
+  padding:40px;
+}
+.hello1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./night.jpeg");
+  color: white;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  align-items:flex-start;
+  padding:40px;
+}
+.hello2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./mountain.jpeg");
+  color: white;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  align-items:flex-start;
+  padding:40px;
+}
+
+.hello_active1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./night.jpeg");
+  color: white; /* margin-top: -100vh; */
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  align-items:flex-start;
+  padding:40px;
+}
+.hello_active2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./mountain.jpeg");
+  color: white; /* margin-top: -100vh; */
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  align-items:flex-start;
+  padding:40px;
+}
+
+#title{
+    margin-bottom: 30px;
+    font-size: 50px;
+    margin-left: -1px;
+}
